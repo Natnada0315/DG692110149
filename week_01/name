@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    printf("สวัสดีค่ะ หนูชื่อ[นัทนดา]\n");
+    printf("รหัสนักศึกษา : [692110149]\n");
+    printf("วิชา: DG111 Computer programmimg\n");
+    return 0;
+}

@@ -21,9 +21,9 @@ BEGIN [ชื่อ C]
 INPUT N
 i = 1
 FOR i FROM 1 TO n DO
-พิมพ์ i
-i = i + 1
+	พิมพ์ i
+	i = i + 1
 END FOR
 WHILE i <= n do
-i = i + 1
+	i = i + 1
 END WHILE

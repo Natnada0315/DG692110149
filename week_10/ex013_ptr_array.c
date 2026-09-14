@@ -18,6 +18,7 @@ int main()
     printf("n (max %d): ", MAX_N);
     scanf("%d", &n);
     int arr[MAX_N], lo, hi;
+
     for (int i = 0; i < n; i++)
     {
         printf("arr[%d]: ", i);

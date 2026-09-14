@@ -23,7 +23,7 @@ int main(void)
 {
     char text[MAX_LEN];
     printf("Enter text (spaces allowed): ");
-    fgets(text, MAX_LEN, stdin); // fgets เป็นคำสั่งที่รับช้อความที่มีสเปซได้
+    fgets(text, MAX_LEN, stdin); // fgets เป็นคำสั่งที่รับข้อความที่มีสเปซได้
 
     char *p = text;
     while (*p != '\0')

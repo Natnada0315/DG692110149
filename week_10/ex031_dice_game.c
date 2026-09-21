@@ -57,6 +57,7 @@ void askPlayAgain(int *keepPlaying)
     scanf(" %c", &answer);
     *keepPlaying = (answer == 'y' || answer == 'Y');
 }
+
 int main()
 {
     srand((unsigned)time(NULL));
